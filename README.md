@@ -83,7 +83,11 @@ a. Where is closure used in this code? How can you tell?
 The closure is inside the personalDice function. I can tell because the inner function is reaching into the outer function to grab a value.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 
+It could be because of it's lexical scope. Since it is stored inside the anonymous function.
+
 c. What is the lexical scope of `newRoll`?
+
+newRoll was created inside the anonymous function, so that is its lexical scope.
 
 ### Task 3 - Stretch Goals
 
